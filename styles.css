@@ -183,3 +183,8 @@ button {
     font: 13px;
 }
 
+.sbutton {
+    border: solid;
+    border-radius: 10px;
+    padding: 0 8px;
+}
