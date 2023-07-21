@@ -3,7 +3,7 @@ body {
     text-align: center;
 }
 
-.header {
+.header, .footer {
     display: flex;
     justify-content: space-between;
     padding: 8px;
@@ -115,7 +115,7 @@ img {
     font-weight: lighter;
     color: #1f2937;  
     min-height: 300px;
-    padding: 24px;
+    padding: 40px;
 }
 
 .quotetext {
@@ -144,4 +144,11 @@ button {
     background-color: #3882f6;
     color: #e5e7eb;
     padding: 8px 16px;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    font-size: 12px;
 }
